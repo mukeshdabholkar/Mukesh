@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Dreams - Jewelry Store</title> <!-- Set your brand name here -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #35424a; /* Dark background for header */
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            background: #e8491d; /* Button color */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #d7381c; /* Darker shade on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diamond Dreams</h1> <!-- Brand Name -->
+        <nav>
+            <ul>
+                <li><a href="#new-arrival">✨ New Arrivals</a></li>
+                <li><a href="#customised-name-pendant">💖 Customized Name Pendants</a></li>
+                <li><a href="#lab-grown-diamonds">💎 Lab-Grown Diamonds</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="new-arrival">
+            <h2>✨ New Arrivals</h2>
+            <p>Discover our latest jewelry designs that have just arrived. Stay ahead of the trends with our exquisite new pieces.</p>
+        </section>
+        
+        <section id="customised-name-pendant">
+            <h2>💖 Customized Name Pendants</h2>
+            <p>Personalize your jewelry with our stunning customized name pendants. Perfect for gifts or a personal touch!</p>
+        </section>
+        
+        <section id="lab-grown-diamonds">
+            <h2>💎 Lab-Grown Diamonds</h2>
+            <p>Discover the brilliance of lab-grown diamonds. Ethically sourced and stunningly beautiful, just like mined diamonds.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Diamond Dreams. All rights reserved.</p>
+    </footer>
+</body>
+</html>
